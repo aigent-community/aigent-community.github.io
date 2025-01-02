@@ -1,0 +1,16 @@
+{
+  "name": "aigent-community.github.io",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitepress": "^1.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
