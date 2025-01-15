@@ -8,21 +8,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'AIgents', link: '/aigents' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'AIgents',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          //{ text: 'Test', link: '/aigents' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/aigent-community/aigent-community.github.io' }
+      { icon: 'github', link: 'https://github.com/aigent-community/aigent-community.github.io' },
+      { icon: 'twitter', link: 'https://x.com/aigentcommunity' }
     ]
   }
 })
