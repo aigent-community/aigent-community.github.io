@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'AIgents',
         items: [
-          //{ text: 'Test', link: '/aigents' }
+          { text: 'aigent-twitter-x', link: '/aigents/aigent-twitter-x' }
         ]
       }
     ],
